@@ -2,4 +2,4 @@
 Проект для практики верстки
 
 - [Ссылка на макет](https://drive.google.com/open?id=1x2G6nxGaxhxItLxUqclqGEPFNf8y0eSS)
-- [Ссылка на youtube канал](https://www.youtube.com/channel/UCM0E9H-QTn1KBPY2bJiidDw)
+- [Ссылка на уроки в youtube](https://www.youtube.com/watch?v=Lap_G3hI7cc&list=PL9-oPVq1RtrWGev5yrxp8JFFfLVyViVcx)
