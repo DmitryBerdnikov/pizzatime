@@ -1,0 +1,137 @@
+.section-contacts {
+  overflow: hidden;
+}
+
+.section-contacts__container {
+  position: relative;
+}
+
+.section-contacts__container::before {
+  content: '';
+  position: absolute;
+  background: url(../img/section-contacts/tomatoes.jpg) no-repeat;
+  background-size: cover;
+  width: 672px;
+  height: 397px;
+  right: -350px;
+  bottom: -100px;
+}
+
+.sectoin-contacts__title {
+  margin-bottom: 0;
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contacts__start {
+  width: 50%;
+}
+
+.contacts__end {
+  width: 50%;
+  padding-left: 30px;
+}
+
+.contacts__map {
+  height: 450px;
+  background: #fef0b4;
+}
+
+.contacts__item {
+  margin-bottom: 35px;
+}
+
+.contacts__item:last-of-type {
+  margin-bottom: 0;
+}
+
+.contacts__title {
+  margin: 0 0 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.contacts__text {
+  margin: 0;
+  font-size: 18px;
+}
+
+.contacts__phone {
+  color: inherit;
+  text-decoration: none;
+  transition: color .2s;
+}
+
+.contacts__phone:hover {
+  color: #ffa650;
+}
+
+@media (max-width: 1800px) {
+  .section-contacts__container::before {
+    right: -250px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .section-contacts__container::before {
+    right: -150px;
+    bottom: -200px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .section-contacts__container::before {
+    right: -100px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .section-contacts__container::before {
+    right: -50px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .section-contacts__container::before {
+    content: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .contacts__map {
+    height: 350px;
+  }
+}
+
+@media (max-width: 767px) {
+  .section-contacts {
+    padding-bottom: 0;
+  }
+
+  .contacts__start {
+    width: 100%;
+    order: 1;
+  }
+
+  .contacts__end {
+    width: 400px;
+    max-width: 100%;
+    margin-bottom: 40px;
+    padding-left: 0;
+  }
+
+  .contacts__map {
+    margin: 0 -20px;
+    height: 300px;
+  }
+
+
+}
+
